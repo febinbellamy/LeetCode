@@ -3,7 +3,6 @@
  * @return {number}
  */
 var dominantIndex = function (nums) {
-
   let maxNum = Math.max(...nums);
   let indexOfMaxNum = nums.indexOf(maxNum);
 
