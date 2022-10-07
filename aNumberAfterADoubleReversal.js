@@ -2,7 +2,7 @@
  * @param {number} num
  * @return {boolean}
  */
-var isSameAfterReversals = function (num) {
+ var isSameAfterReversals = function (num) {
   // reverse1
   let reverse1 = String(num).split("").reverse();
 
@@ -19,4 +19,3 @@ var isSameAfterReversals = function (num) {
   let reverse2 = reverse1.reverse();
   return Number(reverse2.join("")) === num ? true : false;
 };
-
