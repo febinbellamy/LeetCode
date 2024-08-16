@@ -1,2 +1,2 @@
 # LeetCode
-My LeetCode solutions in JavaScript.
+A repository of my LeetCode solutions in JavaScript.
